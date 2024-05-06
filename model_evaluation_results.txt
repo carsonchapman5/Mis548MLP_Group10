@@ -1,0 +1,21 @@
+Recall: 0.964389933880705
+Precision: 0.9663504067892551
+
+Classification Report:
+                    precision    recall  f1-score   support
+
+            Benign       0.95      0.74      0.83     88411
+         DNS Flood       0.99      0.98      0.99     88000
+ Dictionary Attack       0.96      0.99      0.97     87860
+        ICMP Flood       0.99      1.00      0.99     88400
+           OS Scan       0.99      0.99      0.99     88916
+        Ping Sweep       0.96      1.00      0.98     88272
+         Port Scan       0.99      0.97      0.98     87808
+         SYN Flood       1.00      1.00      1.00     88074
+         Slowloris       0.98      0.98      0.98     88484
+         UDP Flood       0.84      0.99      0.91     88127
+Vulnerability Scan       0.98      0.98      0.98     88469
+
+          accuracy                           0.96    970821
+         macro avg       0.97      0.96      0.96    970821
+      weighted avg       0.97      0.96      0.96    970821
